@@ -2,8 +2,6 @@ vim.cmd("set expandtab")
 vim.cmd("set tabstop=4")
 vim.cmd("set softtabstop=4")
 vim.cmd("set shiftwidth=4")
-
-vim.cmd("set laststatus=3")
-vim.wo.relativenumber = true
+vim.cmd("set relativenumber")
 
 vim.g.mapleader = " "
